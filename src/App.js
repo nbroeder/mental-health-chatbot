@@ -1,14 +1,14 @@
 import './App.css';
 import Chatbot from 'react-chatbot-kit';
 import 'react-chatbot-kit/build/main.css'
-import  chatbotShell  from './Components/chatbotShell.js';
+import  {ChatbotShell}  from './Components/ChatbotShell.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-       <chatbotShell></chatbotShell>
+       <ChatbotShell></ChatbotShell>
         
       </header>
     </div>
